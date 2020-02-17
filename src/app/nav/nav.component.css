@@ -1,0 +1,33 @@
+nav {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 65px;
+    z-index: 1;
+    transition: top 0.8s;
+}
+
+.nav {
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+}
+
+.nav a {
+    margin: 15px;
+    color: rgb(90, 90, 90);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.nav a:hover {
+    color: rgb(90, 90, 90);
+    text-decoration: line-through;
+}
+
+
